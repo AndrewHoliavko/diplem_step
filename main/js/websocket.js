@@ -1,12 +1,9 @@
+let error = document.createElement('div');
+error.className = 'err';
+error.innerHTML = "Real time quotes are not avaliable now. The New York Stock Exchange will open next Monday at 9 am EST.";
+
 let stock_price_trade = document.createElement('span');
 stock_price_trade.className = 'stockPriceTrade';
-let web_ska = document.createElement("input");
-
-web_ska.onchange = 'alert("work!");';
-web_ska.name="play_back_rate";
-web_ska.type = "radio";
-web_ska.value = 99
-web_ska.innerHTML = 'qq<br>'
 
 const socket = new WebSocket('wss://ws.finnhub.io?token=ca3mmvaad3ia675b0f50');
 
