@@ -51,7 +51,7 @@ class CompanyInfo {
   addBackSearchEL() {
     this.backSearch = document.createElement("a");
     this.backSearch.href = "./index.html";
-    this.backSearch.innerText = "Back to Search Nasdaq Stock";
+    this.backSearch.innerText = "FIRST PAGE";
     const backIcon = document.createElement("i");
     backIcon.classList.add("fas", "fa-search-dollar", "mr-2");
     this.backSearch.prepend(backIcon);

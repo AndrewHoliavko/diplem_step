@@ -21,13 +21,16 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
-  <body
-    class="w-100 d-flex justify-content-center flex-column align-items-center"
-  >
+  <body class="w-100 d-flex justify-content-center flex-column align-items-center">
+
+    <!-- <div><strong>Stock Trade Details in Real Time</strong></div>
+    <br> -->
+    <div id="elem2"></div>
+
     <div class="ticker-container" id="ticker-container"></div>
     <div class="page-wrapper">
       <h1 class="title d-flex justify-content-center text-white">
-        Welcome to step into the future
+        Stock exchange
       </h1>
       <div class="main-card">
         <div id="form"></div>
@@ -38,6 +41,7 @@
     <script type="module" src="./js/SearchResult.js"></script>
     <script type="module" src="./js/SearchForm.js"></script>
     <script type="module" src="./js/api.js"></script>
+    <script src="./js/websocket.js"></script>
     <script type="module">
       import Marquee from "./js/marquee.js";
       import SearchResult from "./js/SearchResult.js";
